@@ -7,6 +7,9 @@ github is used for the project or code storage and management
 
 -to use this feature we can use the visual studio code
 -some basic command for git are
+
+----following 6 command is used if we have the already a project on the github repository-------
+
 1)git clone -----http link address---------
 	-this is used to copy the project from github to local machine 
 
@@ -19,7 +22,9 @@ github is used for the project or code storage and management
 	-this will commit the changes to the project file
 	-this is second step after modifing the file
 	-here we can add message which will be visible in the github
+	-this will save the changes on local system and not on remote system
 5)git push origin main
+	-this will save the changes on remote system of github
 	-this will upload the all the project file to the github
 	-this is third step to the project
 	-upload local repo content to remote repo
@@ -28,3 +33,29 @@ github is used for the project or code storage and management
 	-after pushing the code, to check the changes are made or not we can run this command
 	-if we recive the massage after the successful complition, then the changes are final
 	-message ------On branch main Your branch is up to date with 'origin/main'.-------
+
+
+
+------if we make new project on our local machine then---------
+-create a folder and open it in vs code
+-to check the folder have a .git folder or not use command (ls -a)or(ls -hidden)
+-if not then use the follwing command
+
+1) git init
+	-to initialize the folder 
+2) git add .
+	-add all the file 
+3) git commit -m "----message----"
+	-commit message
+
+---now we need to create a remote repository on github 
+4)git remote add origin ------------repository link--------
+	-this will set the remote repository for the new project
+5)git remote -v
+	-to verify the remote repo
+6) git branch
+	-to check the branch of the project 
+7) git branch -M main
+	-to rename the master branch as main branch
+8) git push -u origin main
+	-to push the files to remote github repo
