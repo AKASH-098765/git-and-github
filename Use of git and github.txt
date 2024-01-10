@@ -82,3 +82,8 @@ basic command
 	-to create a new branch
 5) git branch -d branchName
 	-to delete a branch
+6) git push origin newBranchName
+	-to push the changes on the new branch and not on main branch
+7) git diff main
+	-to check the differencs between current branch and main branch
+8) git
