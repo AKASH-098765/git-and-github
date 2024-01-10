@@ -1,0 +1,30 @@
+git is used on local machine for version control system
+-version control system is nothing but tracking the changes in the project or code. This will give the detail information of changes, modification, updation in the project code.
+
+github is used for the project or code storage and management
+-the github is work on remote machine where we can store and manage our code.
+
+
+-to use this feature we can use the visual studio code
+-some basic command for git are
+1)git clone -----http link address---------
+	-this is used to copy the project from github to local machine 
+
+2)git status
+	-this is used to check the any changes made in the remote machine after the file is clone from github
+3)git add .
+	-this will save all the changes, modification in cloned project
+	-after making the changes in the project this is the first step
+4)git commit -m "------message want to save after the changes made in project-------"
+	-this will commit the changes to the project file
+	-this is second step after modifing the file
+	-here we can add message which will be visible in the github
+5)git push origin main
+	-this will upload the all the project file to the github
+	-this is third step to the project
+	-upload local repo content to remote repo
+
+6)git status
+	-after pushing the code, to check the changes are made or not we can run this command
+	-if we recive the massage after the successful complition, then the changes are final
+	-message ------On branch main Your branch is up to date with 'origin/main'.-------
