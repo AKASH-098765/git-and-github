@@ -59,3 +59,26 @@ github is used for the project or code storage and management
 	-to rename the master branch as main branch
 8) git push -u origin main
 	-to push the files to remote github repo
+
+
+
+--workflow--
+  	create repo on github-->clone the repo on local machine-->changes and new files-->add-->commit-->push
+
+
+
+
+
+-----GIT BRANCH-----
+
+basic command
+1) git branch
+	-to check the total no. of branch
+2) git branch -M --new name--
+	- to change the name of exiting branch
+3) git checkout ---branchName----
+	to switch to the branches
+4) git checkout -b branchName
+	-to create a new branch
+5) git branch -d branchName
+	-to delete a branch
