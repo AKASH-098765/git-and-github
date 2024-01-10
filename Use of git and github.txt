@@ -86,4 +86,5 @@ basic command
 	-to push the changes on the new branch and not on main branch
 7) git diff main
 	-to check the differencs between current branch and main branch
-8) git
+8) git merge main
+	- to merge the main branch with new branch.
